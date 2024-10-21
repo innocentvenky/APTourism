@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% extends 'nav.html' %}
+{% block body %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/design3.css' %}">
+<h1>Welcome come to A.P Tourism</h1>
+    {% for a in data %}
+    <h2>About A.P Tourism:</h2>
+    <p>{{a.apabout}}</p>
+      <h2>About A.P Tourism minister:</h2>
+    <p>{{a.aboutMinister}}</p>
+  {% endfor %}
+  {% for x in imgdata1 %}
+    <img src="{{x.image.url}}" alt="" height="250px" width="250px">
+  {% endfor %}
+{% endblock %}

@@ -1,0 +1,23 @@
+body{
+ background-color: gray;
+}
+p
+{
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+}
+h1
+{
+  font-size: 50px;
+  color: blue;
+  font-style:italic;
+  text-shadow:2px 2px 4px orange;
+}
+h2
+{
+  font-size: 30px;
+  color:darkblue;
+  font-style:italic;
+  text-shadow:2px 2px 4px blue;
+}

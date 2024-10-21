@@ -1,0 +1,45 @@
+body
+{
+  background-image: url('https://www.trawell.in/admin/images/upload/719249815Dhyana_Buddha.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+h1
+{
+  border: ridge;
+  text-align: center;
+  font-size:35px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: monospace;
+  color: blue;
+  text-shadow: 2px 2px 5px white;
+}
+h2
+{
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  font-size: 100px;
+  font-family: monospace;
+  color:blue;
+  text-shadow: 2px 2px 5px white;
+
+}
+button {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the button */
+  font-size: 50px;
+  color: green;
+  background-color: white; /* Add a background color */
+  border: 2px solid green; /* Add border for better visibility */
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+button:hover {
+  background-color: green; /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}

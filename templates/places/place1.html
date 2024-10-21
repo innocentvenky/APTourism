@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% extends 'nav.html' %}
+{% block body %}
+{% load static %}
+  {% for x in data2 %}
+  <link rel="stylesheet" href="{% static 'css/arakudesign.css' %}">
+    <h1>{{x.placename}}</h1>
+    <h2>HISTORY</h2>
+    <p>{{x.history}}</p>
+    {% endfor %}
+
+    <hr>
+    <h2>IMAGES</h2>
+    {% for x in image1 %}
+     <img src="{{x.img1.url}}" alt="" height="220px" width="320px">
+     {% endfor %}
+     <hr>
+     <h2>VIDEOS</h2>
+  {% for x in videodata2 %}
+    <video width="620" height="350" controls>
+  <source src="{{x.video.url}}" type="video/mp4">
+</video>
+{% endfor %}
+<hr>
+<h2> LOCATION</h2>
+<a href="https://www.google.com/maps/search/visakhapatnam+tourist+places/@17.751748,83.2604802,12z/data=!3m1!4b1">
+   <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7MbRrwlP4MtsSXkIG-XBxvCnAQi5NuzQpqQ&usqp=CAU'  height='420px' width=1200px > </a>
+<h1></h1>
+{% endblock %}

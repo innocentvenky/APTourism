@@ -1,0 +1,26 @@
+body{
+  background-color:gray;
+}
+h1
+{
+  text-align: center;
+  font-size: 80px;
+  font-style: italic;
+  text-shadow: 2px 2px 5px white;
+  color: blue;
+
+}
+h2
+{
+  text-align:left;
+  font-size: 45px;
+  font-style: italic;
+  text-shadow: 2px 2px 5px white;
+  color: yellow;
+}
+p
+{
+  font-style: italic;
+   color: white;
+  font-size: 20px;
+}
